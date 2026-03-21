@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Members Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="team-container">
+        <div class="page-header">
+            <h1>Team Members</h1>
+            <p>People who are building <span class="nexus">Nexus</span></p>
+        </div>
+        <div class="team-grid">
+            <div class="member-card">
+                <div class="member-image">
+                    <img src="https://i.pravatar.cc/150?img=1" alt="Dawood">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Dawood</h3>
+                    <p class="member-role">Backend Manager</p>
+                    <p class="member-bio">Designs server systems that scale without breaking under pressure.</p>
+                    <div class="member-socials">
+                        <a href="#" aria-label="Website">🔗</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-image">
+                    <img src="https://i.pravatar.cc/150?img=2" alt="Aisha Patel">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Aisha Patel</h3>
+                    <p class="member-role">Product Manager</p>
+                    <p class="member-bio">Connects business goals with user needs to ship the right product.</p>
+                    <div class="member-socials">
+                        <a href="#" aria-label="Website">🔗</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-image">
+                    <img src="https://i.pravatar.cc/150?img=3" alt="James Wilson">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">James Wilson</h3>
+                    <p class="member-role">Frontend Engineer</p>
+                    <p class="member-bio">Builds fast, clean interfaces that users actually enjoy using.</p>
+                    <div class="member-socials">
+                        <a href="#" aria-label="Website">🔗</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-image">
+                    <img src="https://i.pravatar.cc/150?img=4" alt="Sarah Chen">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Sarah Chen</h3>
+                    <p class="member-role">Lead Designer</p>
+                    <p class="member-bio">Turns complex problems into simple, beautiful user experiences.</p>
+                    <div class="member-socials">
+                        <a href="#" aria-label="Website">🔗</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-image">
+                    <img src="https://i.pravatar.cc/150?img=5" alt="Ryna">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Ryna</h3>
+                    <p class="member-role">UI Developer</p>
+                    <p class="member-bio">Trains models that make products smarter with every interaction.</p>
+                    <div class="member-socials">
+                        <a href="#" aria-label="Website">🔗</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
