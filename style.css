@@ -1,0 +1,151 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --card-bg:           #ffffff;
+    --card-radius:       16px;      
+    --color-price-old:   #999999;
+    --color-price-new:   #d85a30;
+    --color-badge-bg:    #d85a30;
+    --color-badge-text:  #ffffff;
+    --color-tag-bg:      #f2f2f2;
+    --color-btn-bg:      #111111;
+    --color-btn-hover:   #333333;
+    --color-tag-text:    #666666;
+    --shadow:            0 8px 32px rgba(0, 0, 0, 0.10);
+    --shadow-hover:      0 20px 48px rgba(0, 0, 0, 0.16);
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    background: #f5f4f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.card {
+    width: 300px;
+    background-color: var(--card-bg);
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-6px);
+}
+
+.image-wrapper {
+    height: 220px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #f0ece4;
+}
+
+.product-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .product-image {
+    transform: scale(1.05);
+}
+
+.badge {
+    background-color: var(--color-badge-bg);
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    border-radius: 999px;
+    color: var(--color-badge-text);
+    padding: 4px 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.card-info {
+    padding: 20px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 0.775rem;
+    font-weight: 500;
+    color: var(--color-tag-text);
+    background-color: var(--color-tag-bg);
+    width: fit-content;
+    border-radius: 999px;
+}
+
+.product-name {
+    color: #000000;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+.price-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.old-price {
+    color: var(--color-price-old);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-size: 1.125rem;
+    color: var(--color-price-new);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.cta-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-btn-bg);
+    color:  #ffffff;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border-radius: var(--card-radius);
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: var(--color-btn-hover);
+}
+
+.cta-btn:active {
+    transform: scale(0.98);
+}
