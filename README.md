@@ -45,3 +45,28 @@ star ratings, and dual action buttons
 - Two Google Fonts combined (Playfair Display + DM Sans)
 - flex: 1 for equal button sizing
 - Image zoom on hover
+
+---
+
+## Product Card 03 — Soft Minimal Fragrance
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+
+**Where it's used:** Luxury fragrance stores, beauty brands,
+high-end e-commerce websites
+
+**Problem it solves:** Presents a premium product in a horizontal
+card layout with size selection, ribbon badge, and elegant
+typography — perfect for luxury brand feel
+
+**Techniques used:**
+- Horizontal card layout with Flexbox
+- Hidden radio inputs + label trick for size selector
+- CSS :checked selector for interactive size selection
+- Diagonal ribbon with rotate(-45deg)
+- Gradient image overlay with inset: 0
+- flex-shrink: 0 to protect image width
+- Two Google Fonts combined (Cormorant Garamond + DM Sans)
+- Full CSS Variables system for easy theming
+- font-style: italic for elegant description
+```
